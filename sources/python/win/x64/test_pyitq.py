@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# test_pyitq.py
 from scipy.io import loadmat
 import pyitq
 queryset = loadmat('queryset.mat')['queryset']
